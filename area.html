@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Simple function program</title>
+</head>
+<body>
+    <table>
+    <tr>
+        <td><h1>Square</h1></td>
+        <td><h1>Rectangle</h1></td>
+    </tr>
+    <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp_CGG4Sap8IICoq4PGEQZw7NYD8H351Z3Cg&s"></td>
+        <td><img src="https://t3.ftcdn.net/jpg/05/27/91/04/360_F_527910445_coYNu8zO05xetrMZtq2i7KuTjtOXuTwo.jpg"></td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" onclick="area_of_square()">Area of square</button>
+        </td>
+        <td>
+            <button type="button" onclick="area_of_rectangle()">Area of Rectangle</button>
+        </td>
+    </tr>
+    </table>
+    <script>
+        function area_of_square(){
+           var a = 6;
+           document.write("Area of square is : ",(a*a));
+        }
+        function area_of_rectangle(){
+            var l = 5;
+            var b = 9;
+            document.write("Area of recatngle is : ",(l*b));
+        }
+    </script>
+</body>
